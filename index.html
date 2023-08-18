@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="manifest" href="./manifest.json">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js').then(function(registration) {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                     }, function(err) {
+                console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script>
+    <title>MY APP</title>
+</head>
+<body id="main">
+
+   <!-- <nav class="navbar navbar-expand-sm navbar-light bg-success">
+    <h3 class="text-center text-white">Heloo</h3>
+   </nav> -->
+   <div class="container">
+        <div class="d-block mt-5 text-center justify-content-center align-items-center" id="banner">
+            <a href="./darenBabbanSallah.html" class="btn btn-success">Daren Babban Sallah</a>
+            <a href="" class="btn btn-success mt-2">Musulmi Mu Raya Daren Maoludi</a>
+            <a href="" class="btn btn-success mt-2">Help</a><br>
+            <a href="" class="btn btn-success mt-2">About</a>
+        </div>
+   </div>
+   <div class="helpBtn d-flex float-end">
+        <button class="btn btn-success rounded-circle position-fixed" data-toggle="modal" data-target="#modelId" type="button"><i class="bx bx-help-circle bx-tada"></i></button>
+   </div>
+   
+   <!--Help Modal -->
+   <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button> -->
+                Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Dolorem hic nulla ducimus voluptatum quisquam 
+                ex amet magnam libero, error, assumenda natus ea fugit 
+                cumque tenetur minima iure velit culpa consectetur
+            </div>
+        </div>
+    </div>
+   </div>
+  
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="./assets/dexie.min.js"></script>
+    <title>Book One</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm position-fixed w-100 navbar-light bg-success">
+        <h3 class="text-center text-white p-1">Book Name</h3>
+    </nav>
+    <div class="main-content">
+        <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-8 text-center d-flex justify-content-center align-items-center">
+                <img src="./assets/title.png" alt="" class="rounded-circle" style="width: 200px; height: 50px;">
+            </div>
+            <div class="col-2">
+            </div>
+        </div>
+        <div id="itemsDiv">
+            
+        </div>
+   
+        
+        <div class="card">
+            <div class="card-body">
+                <form id="itemForm" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="value1">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="value2">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="value3">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="value4">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="value5">
+                    </div>
+                    <div class="form-group">
+                        <input type="file" class="form-control" id="value6" value="../assets/audios/">
+                    </div>
+                    <button class="btn btn-outline-success btn-block float-end">Save</button>
+                    </form>
+            </div>
+        </div>
+       </div>
+       <button class="bg-success rounded-circle"><i class="bx bx-play float-end  text-white p-2" id="masterPlay"></i></button>
+    </div>
+   
+    
+    <script src="./assets/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background: url(bg.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin-top: 25px;
+}
+/* .container #banner{
+    text-align: center;
+    margin-top: 50px;
+} */
+#book-card{
+    width: 80%;
+    /* margin-top: 10px; */
+    height: 10%!important;
+    cursor: pointer;
+    margin: auto;
+}
+#book-card img{
+    width: 100%;
+    height: 190px;
+}
+.helpBtn{
+    margin-right: 65px;
+    margin-top: 10px;
+}
+.helpBtn .bx-help-circle{
+    font-size: 25px;
+}
+
+
+
+/*===================== Book Pages Styles =================*/
+.main-content{
+    background: url(banner.jpeg);
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+    overflow-y: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .main-content #ayatIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 10px;
+}
+.main-content .ayatIcons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+     #ayatIcon img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* margin-right: 10px; 
+}
+.line{
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+} */
+.content{
+    margin-bottom: -20px;
+}
+.content p{
+    font-size: 15px;
+    padding-left: 10px;
+    /* padding-top: -10px; */
+    /* padding-right: 15px; */
+    text-transform: capitalize;
+}
+.content .d-flex{
+    margin-top: -5px;
+}
+.ayatLogo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: none;
+    margin-right: 10px;
+}

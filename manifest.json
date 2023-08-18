@@ -1,0 +1,30 @@
+{
+    "name": "Daren Babban Sallah",
+    "short_name": "Daren Sallah",
+    "icons":[
+        {
+            "src":"./assets/icon.png",
+            "sizes": "194x194",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src":"./assets/icon1.png",
+            "sizes": "215x215",
+            "type": "image/png"
+         
+        },
+        {
+            "src":"./assets/bb.png",
+            "sizes": "477x477",
+            "type": "image/png"
+            
+        }
+        
+    ],
+    "theme_color": "#FFFFFF",
+    "bacjground_color": "#FFFFFF",
+    "start_url": "/MSMIMAM/",
+    "display": "standalone",
+    "orientation": "portrait"
+}
