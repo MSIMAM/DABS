@@ -5,8 +5,7 @@
         {
             "src":"./assets/icon.png",
             "sizes": "194x194",
-            "type": "image/png",
-            "purpose": "any maskable"
+            "type": "image/png"
         },
         {
             "src":"./assets/icon1.png",
@@ -16,7 +15,7 @@
         },
         {
             "src":"./assets/bb.png",
-            "sizes": "477x477",
+            "sizes": "497x497",
             "type": "image/png"
             
         }
