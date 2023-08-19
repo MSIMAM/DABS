@@ -5,7 +5,8 @@
         {
             "src":"./assets/icon.png",
             "sizes": "194x194",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         },
         {
             "src":"./assets/icon1.png",
@@ -23,7 +24,7 @@
     ],
     "theme_color": "#FFFFFF",
     "bacjground_color": "#FFFFFF",
-    "start_url": "/MSMIMAM/",
+    "start_url": "/DABS/",
     "display": "standalone",
     "orientation": "portrait"
 }
